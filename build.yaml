@@ -22,5 +22,5 @@ include:
     shield: corne_5x3_left
     snippet: studio-rpc-usb-uart
   - board: nice_nano//zmk
-    shield: corne_5x3_ight
+    shield: corne_5x3_right
     snippet: studio-rpc-usb-uart
