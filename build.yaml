@@ -19,8 +19,8 @@
 ---
 include:
   - board: nice_nano//zmk
-    shield: corne_5x3_left
-    snippet: studio-rpc-usb-uart
+    shield: corne_left 5x3
+    snippet: studio-rpc-usb-uart zmk-animated-oled-widget
   - board: nice_nano//zmk
-    shield: corne_5x3_right
-    snippet: studio-rpc-usb-uart
+    shield: corne_right 5x3
+    snippet: studio-rpc-usb-uart zmk-animated-oled-widget
