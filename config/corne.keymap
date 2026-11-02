@@ -14,6 +14,17 @@
         zmk,physical-layout = &foostan_corne_5col_layout;
     };
 
+    // Invert the internal blue LED logic so it only blinks during a critical warning
+    &blue_led {
+        gpios = <&gpio0 15 GPIO_ACTIVE_LOW>;
+    };
+
+    // Point the rgbled-widget's critical warning state to the nice!nano's internal blue LED
+    aliases {
+        led-red = &blue_led;
+    };
+
+
     combos {
         compatible = "zmk,combos";
 
