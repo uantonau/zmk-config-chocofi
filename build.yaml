@@ -19,14 +19,8 @@
 ---
 include:
   - board: nice_nano//zmk
-<<<<<<< HEAD
-    shield: corne_left
+    shield: corne_5x3_left
     snippet: studio-rpc-usb-uart
   - board: nice_nano//zmk
-    shield: corne_right
+    shield: corne_5x3_ight
     snippet: studio-rpc-usb-uart
-=======
-    shield: corne_left 5x3
-  - board: nice_nano//zmk
-    shield: corne_right 5x3
->>>>>>> 661c922 (layout)
