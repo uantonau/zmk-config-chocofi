@@ -7,5 +7,22 @@ manifest:
       remote: zmkfirmware
       revision: main
       import: app/west.yml
+
+manifest:
+  remotes:
+    - name: zmkfirmware
+      url-base: https://github.com/zmkfirmware
+    # Add this remote line:
+    - name: mctechnology17
+      url-base: https://github.com/mctechnology17
+  projects:
+    - name: zmk
+      remote: zmkfirmware
+      revision: main
+      import: app/west.yml
+    # Add this project line:
+    - name: zmk-nice-oled
+      remote: mctechnology17
+      revision: main
   self:
     path: config
